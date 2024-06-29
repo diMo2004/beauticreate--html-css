@@ -1,0 +1,88 @@
+.name
+{
+  font-family: "Cinzel", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 6rem;
+  color:rgba(128, 128, 128, 0.397);
+  border: 5px solid whitesmoke;
+  padding: 10px;
+}
+.description
+{
+  font-family: "Playwrite AU SA", cursive;
+  font-size: 2rem;
+  font-weight: 800;
+  font-style: normal;
+  border: 5px solid whitesmoke;
+  padding: 10px;
+}
+div
+{
+    display: inline-block;
+    width: 30%;
+    border: 5px solid whitesmoke;
+    padding: 10px;
+}
+html
+{
+    background-color: rgb(189, 248, 245);
+    padding: 5px;
+}
+img
+{
+    height:300px;
+    width:300px;
+    float: left;
+    margin-right: 30px;
+}
+.right-card
+{
+    float: right;
+    width: 45%;
+}
+.left-card
+{
+  float: left;
+  width: 45%;
+}
+footer
+{
+  clear: both;
+  text-align: right;
+  padding: 50px;
+}
+@media (max-width: 680px) {
+  
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  h2
+  {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .right-card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .left-card
+  {
+      width: 100%;
+      display: block;
+      margin-bottom: 30px;
+      text-align: justify;
+  }
+
+  img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
